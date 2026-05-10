@@ -1,0 +1,11 @@
+## Interface: 50400
+## Title: ProfessionsViewer
+## Notes: Simple professions overview per character
+## Author: Azijnpisser
+## Version: 1.0
+## SavedVariables: H_ProfessionsDB, A_ProfessionsDB, S_ProfessionDB, CharBackupDB
+
+classic\ProfsView.lua
+classic\ProfsOptions.lua
+classic\ProfsFrame.lua
+classic\ProfsFrame.xml

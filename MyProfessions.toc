@@ -1,0 +1,12 @@
+## Interface: 120005
+## Title: ProfessionsViewer
+## Notes: Simple professions overview per character
+## Author: Azijnpisser
+## Version: 1.0
+## IconTexture: Interface\Icons\INV_Misc_Book_09
+## SavedVariables: H_ProfessionsDB, A_ProfessionsDB, S_ProfessionDB, CharBackupDB
+
+retail\ProfsView.lua
+retail\ProfsOptions.lua
+retail\ProfsFrame.lua
+retail\ProfsFrame.xml

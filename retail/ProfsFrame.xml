@@ -1,0 +1,21 @@
+<Ui xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.blizzard.com/wow/ui/">
+	<Frame name="ProfsFrame" inherits="BackdropTemplate" parent="UIParent" toplevel="true" movable="true" enableMouse="true">
+		<Size x="1137" y="422" />
+		<Anchors>
+			<Anchor x="62" y="30" point="CENTER" />
+		</Anchors>
+		<Scripts>
+			<OnLoad>
+				self:RegisterForDrag("LeftButton")
+				ProfsFrame_OnLoad()
+				ProfsFrame:Hide()
+			</OnLoad>
+			<OnDragStart>
+				self:StartMoving()
+			</OnDragStart>
+			<OnDragStop>
+				self:StopMovingOrSizing()
+			</OnDragStop>
+		</Scripts>
+	</Frame>
+</Ui>
